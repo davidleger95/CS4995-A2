@@ -1,0 +1,19 @@
+.square{
+    height: 100px;
+    width: 100px;
+    background: lightblue;
+    position: absolute;
+    top: calc(50vh - 50px);
+    transition: transform 100ms ease-in-out;
+    transform: rotateZ(0deg);
+    border: 1px solid lightgrey;
+}
+
+.one{
+    left: calc(50vw - 50px);
+}
+
+.active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    z-index: 100;
+}
