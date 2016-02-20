@@ -1,10 +1,16 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .square{
     height: 100px;
     width: 100px;
-    background: lightblue;
+    background: #fef300;
     position: absolute;
     top: calc(50vh - 50px);
-    transition: transform 100ms ease-in-out;
+    /*transition: transform 100ms ease-in-out;*/
     transform: rotateZ(0deg);
     border: 1px solid lightgrey;
 }
