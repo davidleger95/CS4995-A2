@@ -10,13 +10,24 @@ html, body{
     background: #fef300;
     position: absolute;
     top: calc(50vh - 50px);
-    /*transition: transform 100ms ease-in-out;*/
+    transition: all 100ms ease-in-out;
     transform: rotateZ(0deg);
     border: 1px solid lightgrey;
 }
 
+body.mouse .square{
+    transition: top, left 0;
+}
+
+body.mouseR .square{
+    transition: transform 0;
+}
+
 .one{
-    left: calc(50vw - 50px);
+    left: 200;
+}
+.two{
+    left: 500;
 }
 
 .active{
