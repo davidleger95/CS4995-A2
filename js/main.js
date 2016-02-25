@@ -8,6 +8,7 @@
         }
     });
     
+    
     var currObject = '.active', x, y, r=0, c=0, o=1;
     var curr = {};
     var inputScheme = 1;
