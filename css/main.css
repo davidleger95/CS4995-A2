@@ -16,10 +16,14 @@ html, body{
 }
 
 body.mouse .square{
+    -webkit-transition: top, left 0;
+    -moz-transition: top, left 0;
     transition: top, left 0;
 }
 
 body.mouseR .square{
+    -webkit-transition: transform 0;
+    -moz-transition: transform 0;
     transition: transform 0;
 }
 
